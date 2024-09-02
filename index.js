@@ -11,5 +11,8 @@ if (!!gender && !!tname){
     if (gender=="f"){
         prefix="Mrs. "
     }
+    if (gender==""){
+        prefix=""
+    }
     elem.innerText=prefix + tname
 }
