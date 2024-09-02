@@ -79,3 +79,7 @@ body {
 .text p{
     font-size: large;
 }
+
+#tname{
+    text-transform: capitalize;
+}
